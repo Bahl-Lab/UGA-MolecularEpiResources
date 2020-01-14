@@ -11,6 +11,12 @@ Place multisub.sh file in directory with sub directories containing submission s
 Check permissions for execution incase script doe not work the first time.(Use command: CHMOD 755 multisub.sh) 
 
 ******************************************************************************************************************************
+For CreatRun
+
+It will find the xml and sub.sh to creat multiple runs 
+define the number of runs you want to set with N
+
+******************************************************************************************************************************
 
 When running BEAST on sapelo2 there are different things to take into account, one thing is utilizing the BEAGLE scaling to help your MCMC converge. Adding the following command can make your run much slower but increases the chances that the run will converge: 
 
